@@ -1,4 +1,4 @@
-require "db/clone/version"
+require "db_clone/version"
 
 class DbClone < Rails::Railtie
   rake_tasks do

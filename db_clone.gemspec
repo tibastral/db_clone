@@ -4,13 +4,13 @@ $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
 require 'db/clone/version'
 
 Gem::Specification.new do |spec|
-  spec.name          = "db-clone"
+  spec.name          = "db_clone"
   spec.version       = Db::Clone::VERSION
   spec.authors       = ["Thibaut Assus"]
   spec.email         = ["thibaut.assus@gmail.com"]
 
   spec.summary       = %q{Set of tasks to clone your heroku db in place of your local db}
-  spec.homepage      = "https://github.com/tibastral/db-clone"
+  spec.homepage      = "https://github.com/tibastral/db_clone"
   spec.license       = "MIT"
 
   # Prevent pushing this gem to RubyGems.org. To allow pushes either set the 'allowed_push_host'
