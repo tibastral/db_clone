@@ -1,5 +1,3 @@
-module Db
-  module Clone
-    VERSION = "1.0.0"
-  end
+module DbCloneV
+  VERSION = "1.0.0"
 end

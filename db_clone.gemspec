@@ -1,11 +1,11 @@
 # coding: utf-8
 lib = File.expand_path('../lib', __FILE__)
 $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
-require 'db/clone/version'
+require 'db_clone/version'
 
 Gem::Specification.new do |spec|
   spec.name          = "db_clone"
-  spec.version       = Db::Clone::VERSION
+  spec.version       = DbCloneV::VERSION
   spec.authors       = ["Thibaut Assus"]
   spec.email         = ["thibaut.assus@gmail.com"]
 
